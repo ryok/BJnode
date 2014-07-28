@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  nav#header.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+    p.navbar-text
+      |Bijo Map
+
+  #main
+    #map
+
+block script
+  script(src='//maps.googleapis.com/maps/api/js?key=AIzaSyBJwISuGrbiYhMy8TC4Ku8ecBBAMdTwvrE&sensor=true')
+  script(src='/javascripts/hoge.js')

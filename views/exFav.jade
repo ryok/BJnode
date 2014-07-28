@@ -1,0 +1,36 @@
+extends exlayout
+
+block head
+  title='exFav'
+  link(rel='stylesheet', href='/stylesheets/exFav.css')
+  
+block content
+  include menu
+  
+  #main.container
+    .row
+      .item.col-xs-6
+        .thumbnail
+          .img(style='background-image:url("/images/cute001.jpg"); background-size:cover')
+          .name
+            |株式会社 岡田商事
+          .fav
+            button.btn.btn-info.btn-xs(type='button')
+              |見る
+      .item.col-xs-6
+        .thumbnail
+          .img(style='background-image:url("/images/cute002.jpg"); background-size:cover')
+          .name
+            |有限会社 加藤電機
+          .fav
+            button.btn.btn-info.btn-xs(type='button')
+              |見る
+      .item.col-xs-6
+        .thumbnail
+          .img(style='background-image:url("/images/004.jpg"); background-size:cover')
+          .name
+            |Yamaguchi Corp.
+          .fav
+            button.btn.btn-info.btn-xs(type='button')
+              |見る
+block script

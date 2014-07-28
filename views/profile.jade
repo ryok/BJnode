@@ -1,0 +1,39 @@
+extends layout
+
+block head
+  title='プロファイル'
+  meta(charset='UTF-8', content='text/css', http-equiv='Content-Style-Type')
+  meta(content='width=device-width, user-scalable=no,minimum-scale=0.5, maximum-scale=1.0', name='viewport')
+  link(rel='stylesheet', href='/stylesheets/main.css')
+  link(rel='stylesheet', href='/stylesheets/profile.css')
+
+block content
+  #panel
+    img(src='/images/back.png')
+    #menuBar.menuRow
+      |メニュー
+    #mapBar.menuRow
+      |マップ
+    #favoBar.menuRow
+      |お気に入り
+    #profileBar.menuRow
+      |プロファイル
+
+  #wrapper
+    header
+      |プロファイル
+    #lBtn
+      img(src='/images/list.png')
+    #main
+      h3
+        |あなたの好みのタイプ
+      #chart
+      button.btn.btn-primary.btn-lg(type='button')
+        |始める！
+
+block script
+  script(src='/javascripts/d3.min.js')
+  script(src='/javascripts/radar-chart.js')
+  script(src='/javascripts/web-native.js')
+  script(src='/javascripts/main.js')
+  script(src='/javascripts/profile.js')

@@ -1,0 +1,21 @@
+extends exlayout
+
+block head
+  title='exPr'
+  link(rel='stylesheet', href='/stylesheets/exPr.css')
+  
+block content
+  include menu
+  
+  #main
+    h3
+      |あなたの好みのタイプ
+    #chart.thumbnail
+    button.btn.btn-info.btn-lg(type='button')
+      |始める！
+
+block script
+  script(src='/javascripts/d3.min.js')
+  script(src='/javascripts/radar-chart.js')
+  script(src='/javascripts/web-native.js')
+  script(src='/javascripts/profile.js')

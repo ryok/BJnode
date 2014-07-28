@@ -1,0 +1,20 @@
+#main{
+	padding-top: 65px;
+}
+
+#main > h3{
+	position: relative;
+	text-align: center;
+}
+
+#main > #chart{
+	position: relative;
+	height: 340px;
+}
+
+#main > button{
+	position: relative;
+	width: 110px;
+	left: 50%;
+	margin-left: -55px;
+}
