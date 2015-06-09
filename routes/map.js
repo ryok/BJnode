@@ -17,6 +17,7 @@ exports.get = function(req, res){
 			});
 		},function(data, cb){
 			var query;
+			console.log(data);
 
 			// if(req.query.lng && req.query.lat){
 			// 	query = {
