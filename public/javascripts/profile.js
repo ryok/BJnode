@@ -1,3 +1,6 @@
+// クライアントよう
+//./views/profile.jade
+
 $(function(){
 	// var url = 'http://' + location.hostname + ':3000/user';
 	// var url = 'http://rehack-node.cloudapp.net/user';
