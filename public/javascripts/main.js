@@ -1,8 +1,8 @@
 jQuery( function($) {
 
 	//遷移先のURLを設定
-	//var url = "http://192.168.1.20/~kato_takahiro/";
-	var url = "http://rehack-node.cloudapp.net";
+	//var url = "http://rehack-node.cloudapp.net";
+	var url = "http://artra.cloudapp.net:3000";
 
 	// メニュー開閉ボタンをクリックしたときの処理
 	$("#lBtn img").bind("click", function() {

@@ -1,6 +1,7 @@
 $(function(){
 	// var url = 'http://' + location.hostname + ':3000/user';
-	var url = 'http://rehack-node.cloudapp.net/user';
+	// var url = 'http://rehack-node.cloudapp.net/user';
+	var url = 'http://artra.cloudapp.net:3000/user';
 	var userId;
 	var d = [];
 	

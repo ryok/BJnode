@@ -2,7 +2,8 @@ var should = require('should');
 var request = require('request');
 
 // var url = 'http://localhost:3000/user';
-var url = 'http://rehack-node.cloudapp.net/user';
+// var url = 'http://rehack-node.cloudapp.net/user';
+var url = 'http://artra.cloudapp.net:3000/user';
 
 var userId = '52aef1976570b0f0c0000001';
 var fav = '52aef156a2441804c10000ff';

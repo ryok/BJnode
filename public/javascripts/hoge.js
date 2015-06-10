@@ -53,7 +53,8 @@ $(function(){
 	$.ajax({
 		type: 'put',
 		// url: 'http://localhost:3000/user',
-		url: 'http://rehack-node.cloudapp.net:3000/user/',
+		// url: 'http://rehack-node.cloudapp.net:3000/user/',
+		url: 'http://artra.cloudapp.net:3000/user/',
 		data:{
 			params: {
 				// userId: '52ad511fe16d3b821e00000',
