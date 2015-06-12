@@ -40,7 +40,7 @@ exports.get = function(req, res){
 };
 
 exports.post = function(req, res){
-	console.log(req.body);
+	console.log('user.post : ' + req.body);
 
 	// ユーザの新規登録
 	var param = {
