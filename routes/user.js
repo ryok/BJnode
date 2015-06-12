@@ -4,7 +4,7 @@ var Users = model.users;
 var Offers = model.offers;
 
 exports.get = function(req, res){
-	console.log(req.query);
+	console.log('user.get : ' + req.query);
 
 	// ユーザ情報の取得
 	var query = {};
@@ -71,7 +71,7 @@ exports.post = function(req, res){
 };
 
 exports.put = function(req, res){
-	console.log(req.body);
+	console.log('user.put : ' + req.body);
 
 	// ユーザの更新
 	var body = req.body.params;
@@ -169,7 +169,7 @@ exports.put = function(req, res){
 };
 
 exports.delete = function(req, res){
-	console.log(req.body);
+	console.log('user.delete : ' + req.body);
 
 	// お気に入りの解除
 	var body = req.body.params;
